@@ -1,0 +1,26 @@
+.book-loader {
+    /* Style your book loader container */
+    position: relative;
+    width: 100px;
+    height: 150px;
+}
+
+.book-cover {
+    /* Style your book cover */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.book-pages {
+    /* Style your book pages */
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+}
