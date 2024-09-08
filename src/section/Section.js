@@ -27,6 +27,7 @@ const Section = () => {
       getData();
   }, [])
 
+// Get Records
   const getData = async ()=>{
     try{
           const response = await axios.get(`${API_URL}/section`, {
@@ -243,7 +244,7 @@ const handleDelete = async (id)=>{
                     <div className="col">
                       <h3 className="page-title">Students</h3>
                     </div>
-                    
+
                   </div>
                 </div>
                 <div className="table-responsive">
@@ -307,7 +308,7 @@ const handleDelete = async (id)=>{
                             </div>
                           </td>
                       </tr>
-                    ))} 
+                    ))}
                     </tbody>
                   </table>
                 </div>

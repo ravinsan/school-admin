@@ -7,12 +7,12 @@ const EditBook = () => {
         <div className="page-header">
           <div className="row align-items-center">
             <div className="col">
-              <h3 className="page-title">Add Book</h3>
+              <h3 className="page-title">Edit Book</h3>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="holiday.html">Holiday</a>
+                  <a href="holiday.html">Book</a>
                 </li>
-                <li className="breadcrumb-item active">Add Holiday</li>
+                <li className="breadcrumb-item active">Edit Book</li>
               </ul>
             </div>
           </div>
@@ -25,7 +25,7 @@ const EditBook = () => {
                   <div className="row">
                     <div className="col-12">
                       <h5 className="form-title">
-                        <span>Holiday Information</span>
+                        <span>Book Information</span>
                       </h5>
                     </div>
                     <div className="col-12 col-sm-6">

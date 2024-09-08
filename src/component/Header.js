@@ -14,7 +14,7 @@ const Header = () => {
     localStorage.removeItem("token");
     toast.success("You have successfully logout!");
     dispatch(logout());
-    
+
     window.location.reload(navigate("/"));
   }
 
@@ -39,10 +39,10 @@ const Header = () => {
             <i className="fas fa-bars" />
           </Link>
         </div>
-        
+
         <ul className="nav user-menu">
-          
-          
+
+
           <li className="nav-item dropdown has-arrow new-user-menus">
             <Link
               className="dropdown-toggle nav-link"
